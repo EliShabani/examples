@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.test-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.test-input {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.test-item {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.test-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.list {
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow-y: scroll;
+}
