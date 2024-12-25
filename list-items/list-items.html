@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="list-items.module.css" />
+  </head>
+  <body>
+    <script src="list-items.js"></script>
+    <div class="test-list">
+      <div class="test-input">
+        <input id="inputId" />
+        <button onclick="add()">ADD</button>
+      </div>
+      <div class="list" id="listId"></div>
+      <div>
+        <input id="searchId" placeholder="include" />
+        <button onclick="search()">Search</button>
+        <button onclick="clearSearch()">Clear</button>
+      </div>
+      <div>
+        <input id="exceptId" placeholder="exclude" />
+      </div>
+    </div>
+  </body>
+</html>
